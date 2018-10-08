@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //自定义属性
+    <declare-styleable name="Add_Decrease_Type">
+
+        //自定义属性类型
+        ////定义单个属性  attr——代表属性   format代表要指定的类型
+        //自定义颜色类型
+        <attr name="middle_text_color" format="color"></attr>
+        //自定义左边图片
+        <attr name="left_image_style" format="reference"></attr>
+
+    </declare-styleable>
+
+</resources>

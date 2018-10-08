@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.num_jia_jian.MainActivity"
+    android:orientation="vertical"
+    >
+    //自动引入
+    //xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   <!-- app:middle_text_color="#f00"布局中设置文本颜色属性  middle_text_color是子name
+        app:left_image_style="@mipmap/ic_launcher_round" 布局中改变左侧减号的图形 left_image_style是子name
+        -->
+    //引入自定义布局  都需要手动引入没有提示
+    <com.bwie.num_jia_jian.ZDType.AddDecrease
+        android:id="@+id/adv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:middle_text_color="#f00"
+        app:left_image_style="@mipmap/ic_launcher_round"
+        >
+
+
+
+    </com.bwie.num_jia_jian.ZDType.AddDecrease>
+
+</LinearLayout>
